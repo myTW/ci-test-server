@@ -5,8 +5,8 @@ var server = dgram.createSocket("udp4");
 var client = dgram.createSocket("udp4");
 
 var REMOTE = "10.29.2.234";
-var selfPort = 41234;
-var remotePort = 41235;
+var selfPort = 41236;
+var remotePort = 10001;
 
 server.bind(selfPort, '0.0.0.0');
 
